@@ -1,0 +1,8 @@
+{
+  "name": "lerna-conventional-commits-example",
+  "version": "1.0.0",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^2.11.0"
+  }
+}
