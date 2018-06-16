@@ -2,7 +2,18 @@
   "name": "lerna-conventional-commits-example",
   "version": "1.0.0",
   "private": true,
+  "scripts": {
+    "commitmsg": "commitlint -e $GIT_PARAMS"
+  },
   "devDependencies": {
+    "@commitlint/cli": "^7.0.0",
+    "@commitlint/config-conventional": "^7.0.1",
+    "husky": "^0.14.3",
     "lerna": "^2.11.0"
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
   }
 }
